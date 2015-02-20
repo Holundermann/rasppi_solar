@@ -1,0 +1,3 @@
+rasppi_solar was developed for raspberry pi to switch electric components on or off. As an additional feature it can switch devices depending on how much power is produced by a photovoltaik power plant. To do so it fetches the webpage of the power plant in a fixed time intervall and parse its content to get the produced power. Then it switch the connected devices accordingly to a given threshold. For example: a electric heater should get activated if 2000 Wh get produced.
+
+Furthermore a server is started that can receive commands. So its possible to write a client application to turn on or off electric devices with the smartphone or over the internet.
