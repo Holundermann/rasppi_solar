@@ -1,0 +1,3 @@
+#! /bin/bash
+
+g++ *.h *.cpp ./Server/*.cpp ./Server/*.h ./Commands/*.cpp ./Commands/.h -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/ -lcurl -lboost_system -lpthread -I/usr/include/curl -IServer -ICommand -o rasppi_solar
